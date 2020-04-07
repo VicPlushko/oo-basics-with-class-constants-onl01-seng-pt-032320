@@ -6,8 +6,6 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand
-    BRANDS.uniq { |shoe| shoe.brand}
   end
   
   def brand=(brand)
